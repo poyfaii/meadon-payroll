@@ -1,0 +1,10 @@
+name = "banana-payroll"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+# ฐานข้อมูล D1 — แก้เฉพาะบรรทัด database_id ให้เป็นของคุณ
+# (ดูได้ที่ Cloudflare > Storage & Databases > D1 > banana-payroll > ช่อง Database ID)
+[[d1_databases]]
+binding = "DB"
+database_name = "banana-payroll"
+database_id = "ใส่-database-id-ของคุณตรงนี้"
